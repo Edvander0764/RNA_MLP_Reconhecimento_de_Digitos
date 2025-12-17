@@ -39,15 +39,11 @@ Valores **≥ 0.5** são interpretados como **1**, e valores **< 0.5** como **0*
 
 Cada imagem é transformada em um **vetor de 16 posições**, conforme o mapeamento abaixo:
 
-$$
-\begin{bmatrix} 
-[1] & [2] & [3] & [4] \\ \\
-[5] & [6] & [7] & [8] \\ \\
-[9] & [10] & [11] & [12] \\ \\
-[13] & [14] & [15] & [16] 
-\end{bmatrix}
-$$
-
+| 1 | 2 | 3 | 4 |
+|---|---|---|---|
+| 5 | 6 | 7 | 8 |
+| 9 | 10 | 11 | 12 |
+| 13 | 14 | 15 | 16 |
 
 
 Cada posição recebe valor **0 ou 1**, indicando a ausência ou presença de pixel.
@@ -62,15 +58,6 @@ O conjunto de treinamento contém **6 amostras**, sendo:
 - **3 exemplos do dígito 1**
 
 Exemplo do dígito **0**:
-
-$$
-\begin{bmatrix} 
-[1] & [1] & [1] & [1] \\ \\
-[1] & [0] & [0] & [1] \\ \\
-[1] & [0] & [0] & [1] \\ \\
-[1] & [1] & [1] & [1] 
-\end{bmatrix}
-$$
 
 | 1 | 1 | 1 | 1 |
 |---|---|---|---|
