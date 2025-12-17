@@ -1,0 +1,2 @@
+# RNA_MLP_Reconhecimento_de_Digitos
+Trabalho de Inteligência Computacional
