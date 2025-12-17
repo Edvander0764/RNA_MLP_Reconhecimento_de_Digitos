@@ -39,10 +39,10 @@ Valores **≥ 0.5** são interpretados como **1**, e valores **< 0.5** como **0*
 
 Cada imagem é transformada em um **vetor de 16 posições**, conforme o mapeamento abaixo:
 
-| 1 | 2 | 3 | 4 |
+| 01 | 02 | 03 | 04 |
 |---|---|---|---|
-| 5 | 6 | 7 | 8 |
-| 9 | 10 | 11 | 12 |
+| 05 | 06 | 07 | 08 |
+| 09 | 10 | 11 | 12 |
 | 13 | 14 | 15 | 16 |
 
 
